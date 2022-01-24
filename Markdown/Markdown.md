@@ -1,19 +1,19 @@
-﻿# 標題
+# 標題
 ### Hello  
 world
 
-```語法: # H1 ```
+```語法： # H1 ```
 
 ##### 最多只有六個 **#**
 ##### 文字後須空兩格才能換行
 
 ```
-語法:
-    粗體:  **txt** or __txt__
-    斜體:   *txt* or _txt_
-    刪除線:  ~~txt~~    
-```
-
+語法：
+    粗體：  **txt** or __txt__
+    斜體：   *txt* or _txt_
+    刪除線：  ~~txt~~   
+    底線： <u>txt</u>
+``` 
 
 ---
 
@@ -22,7 +22,7 @@ world
 ``` print('Hi') ```
 
 ```
-語法: ```txt```
+語法： ```txt```
 ```
 
 
@@ -32,7 +32,7 @@ world
 print('Hello, world')
 ```
 
-```語法: 把小區塊的語法拆成三行```
+```語法： 把小區塊的語法拆成三行```
 
 
 #### 程式碼： **在```後(不換行) 可加上欲使用之語言名稱**
@@ -45,6 +45,14 @@ print('Hello, world')
     ```
 ```
 
+---
+# 註解
+```語法：
+[^註解]:註解內容。
+```
+
+註解就是這樣 [^說明文字]。
+[^說明文字]: 我是註解。
 
 ---
 # 階層
@@ -55,7 +63,7 @@ print('Hello, world')
 > > > > **four**
 > > > > > **five**
 
-```語法: > txt ```  
+```語法： > txt ```  
 
 ``` **中間可不用空格** ```
 
@@ -70,7 +78,7 @@ print('Hello, world')
 * _5_
 
 ```
-語法: * txt  
+語法： * txt  
         * txt
           * txt
 ```
@@ -86,7 +94,7 @@ print('Hello, world')
 5. e
 
 ```
-語法:
+語法：
 1. txt
 2. txt
 3. txt
@@ -101,7 +109,7 @@ print('Hello, world')
 tw.yahoo.com
 
 ```
-語法:
+語法：
 [顯示名稱](網址)
 網址
 ```
@@ -111,15 +119,15 @@ tw.yahoo.com
 # 表格
 
 | title | title | title |
-| ----- | ----: | ----: |
+| :---- | :-----: | ----: |
 |  內容  | abcd |  dfgh |
 
 ```
-語法:
+語法：
 
 |  title |  title |  title |
-|  對齊  | -----: |  --:-- |
-|  內容  |  內容  |  內容   |         
+|  :---- | :-----: |  ----: |
+|   內容  |  內容  |   內容  |         
 
 ```
 #### **:** 表示對齊方向(左邊靠左)
@@ -132,7 +140,7 @@ tw.yahoo.com
 ![cat](http://media.istockphoto.com/photos/sunny-cat-picture-id508030340?k=6&m=508030340&s=170667a&w=0&h=q7ZDjK5Qyxs54WjHJLnsxJ6_kPomYfhMnVjYVZDUnnk= "This is a cat")
 
 ```
-語法:
+語法：
 ![描述](連結網址 "滑鼠移至圖片顯示的字")
 ```
 
@@ -142,4 +150,6 @@ tw.yahoo.com
 # 參考資料
 [Markdown](https://wastemobile.gitbooks.io/gitbook-chinese/content/format/markdown.html)  
 
-[Markdown 練習筆記](https://github.com/arthurc0102/Note/blob/master/Markdown/markdown.md)
+[Markdown 練習筆記](https://github.com/arthurc0102/Note/blob/master/Markdown/markdown.md)  
+
+[Markdown 教程](https://www.runoob.com/markdown/md-tutorial.html)  
