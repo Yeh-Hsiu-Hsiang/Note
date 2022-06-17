@@ -1,5 +1,5 @@
 use finedb;
-CREATE TABLE `烘料料管管制表` (
+CREATE TABLE `Table_Name` (
   `RawMaterial` nvarchar(50) NOT NULL  ,
     `Material_PipeTemperature` nvarchar(10) NULL,
     `BakingTemperature` nvarchar(50) NULL  ,
