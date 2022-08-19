@@ -52,7 +52,7 @@
 
 ---
 ### cmd 創立 DB 用戶
-[MySQL開啟遠端連線權限允許遠端裝置連線資料庫](https://www.ucamc.com/articles/430-mysql)
+[MySQL開啟遠端連線權限允許遠端裝置連線資料庫](https://www.ucamc.com/articles/430-mysql)  
 [Mysql 建立資料庫\新增使用者\使用者授權](https://iter01.com/544562.html)
 
 ---
