@@ -3,18 +3,23 @@
 
 >   ### 新增 DB 使用者
 >   
->   1. 找到 mysql 底下的bin資料夾.   
->   ```C:\FR\mysql\bin```
->   2. 開啟 cmd.
->   3. 登入root.   
->   ```mysql -u root -p``` 
->   4. 建立使用者名稱及密碼.  帳號：admin、密碼：password  
->   ```CREATE USER admin IDENTIFIED BY 'password';  ```
->   5. 給定使用者存取權限.  
->   ```GRANT ALL PRIVILEGES ON *.* TO 'admin';```
->   6. 重新載入使用者權限設定.  
->   ```FLUSH PRIVILEGES;```
-
+>   * 方法一：
+>   
+>       1. 找到 mysql 底下的bin資料夾.   
+>       ```C:\FR\mysql\bin```
+>       2. 開啟 cmd.
+>       3. 登入root.   
+>       ```mysql -u root -p``` 
+>       4. 建立使用者名稱及密碼.  帳號：admin、密碼：password  
+>       ```CREATE USER admin IDENTIFIED BY 'password';  ```
+>       5. 給定使用者存取權限.  
+>       ```GRANT ALL PRIVILEGES ON *.* TO 'admin';```
+>       6. 重新載入使用者權限設定.  
+>       ```FLUSH PRIVILEGES;```
+>
+>   * 方法二：  
+>       
+>       ```CREATE USER 'sa'@'localhost' IDENTIFIED BY 'sa';```
 ---
 
 >   ### 建立資料表
